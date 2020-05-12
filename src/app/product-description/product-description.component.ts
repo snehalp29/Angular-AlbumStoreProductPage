@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { ProductService } from "app/product.service";
+import { ProductService } from "../product.service";
 
 
 @Component({
@@ -10,7 +10,7 @@ styleUrls:['./product-description.component.css']
 export class ProductDescription implements OnInit {
 
     albumInfo
-    constructor(private _productService:ProductService){
+    constructor(private _productService: ProductService){
     }
 
     ngOnInit(): void {
